@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memory Game</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+
+        <header class="header-containder">
+            <div class="logo-container" id="logo-container">
+                <h1>Memory Game</h1>
+                <img class="logo" src="images/memory-card.jpg" alt="memory-card"/>
+            </div>
+            <button id="btn" class="btn">New Game</button>
+        </header>
+
+        <main class="main-section">
+            <section id="display-nav" class="display-nav">
+                <div class="container game-container" id="container"></div>
+            </section>
+        </main>
+
+        <section class="section-b">
+            <div class="clock-score-display">
+                <p id="timer-count"></p>
+            </div>
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+</html>
